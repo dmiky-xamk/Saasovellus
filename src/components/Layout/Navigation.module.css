@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  font-size: 1rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #333;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link--active {
+  text-decoration: none;
+  border-bottom: 1px solid #6ca5f0;
+  color: #3c3cff;
+}

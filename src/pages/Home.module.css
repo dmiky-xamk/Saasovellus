@@ -1,0 +1,12 @@
+.section-home {
+  max-width: 18rem;
+  padding: 2.4rem 1.2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.home-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
